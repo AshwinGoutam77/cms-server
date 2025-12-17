@@ -1,0 +1,44 @@
+{
+  "kind": "singleType",
+  "collectionName": "stats",
+  "info": {
+    "singularName": "statss",
+    "pluralName": "stats",
+    "displayName": "stats"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "string"
+    },
+    "counters": {
+      "type": "component",
+      "component": "counter.counters",
+      "repeatable": true
+    },
+    "ctaText": {
+      "type": "string"
+    },
+    "cases": {
+      "type": "component",
+      "component": "case.cases",
+      "repeatable": true
+    },
+    "cta": {
+      "type": "component",
+      "component": "cta.cta",
+      "repeatable": false
+    },
+    "mainCTA": {
+      "type": "component",
+      "component": "maincta.main-cta",
+      "repeatable": false
+    }
+  }
+}
